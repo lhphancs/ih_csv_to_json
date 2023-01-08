@@ -1,7 +1,7 @@
 ﻿using CsvHelper.Configuration;
 using FileConverter.Models;
 
-namespace FileConverter;
+namespace FileConverter.Implementations.Helpers;
 
 public class SkuTransferEntryMap : ClassMap<SkuTransferEntry>
 {

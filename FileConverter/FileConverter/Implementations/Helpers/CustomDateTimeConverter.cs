@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using System.Text.Json;
 
-namespace FileConverter;
+namespace FileConverter.Implementations.Helpers;
 
 public class CustomDateTimeConverter : JsonConverter<DateTime>
 {
