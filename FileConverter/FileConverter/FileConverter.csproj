@@ -9,14 +9,10 @@
 
   <ItemGroup>
     <None Remove="_files\input.csv" />
-    <None Remove="_files\output.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="_files\input.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="_files\output.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
